@@ -1,12 +1,24 @@
 # ai_system
-2023-1
+2023-1 : Emotion-based Music Recommendation System
 
-### 실행 ###
+### Goal ###
+- Classify emotions from webcam input.
+- Perform EDA and clustering on music dataset audio features.
+- Recommend music based on vector similarity, aligning with the user's current emotional state and year-specific music preferences.
 
+### Dataset ###
+- Emotion dataset : https://www.kaggle.com/datasets/msambare/fer2013
+- Music dataset : https://www.kaggle.com/datasets/vatsalmavani/spotify-dataset
+
+### Algorithm ###
+- Emotion Classification (Emotion_detection.ipynb)
+- Audio Feature Clustering (EDA_Clustering.ipynb)
+
+### Run ###
 ```bash
 python recommend.py
 ```
 
-- input : 웹캠 감정 추론(5초) & 연도 
-- output : 입력 연도와 추론 감정 기반 1-5 순위 노래 추천리스트
-- (+) additional : 유튜브 링크 연결 
+> Input: Emotion inference from webcam (5 seconds) & year selection.
+> Output: Ranked list of top 1-5 song recommendations based on the input year and inferred emotion.
+> Additional feature: Linking to YouTube for the recommended songs.
