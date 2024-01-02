@@ -19,6 +19,6 @@
 python recommend.py
 ```
 
-> Input: Emotion inference from webcam (5 seconds) & year selection.
-> Output: Ranked list of top 1-5 song recommendations based on the input year and inferred emotion.
-> Additional feature: Linking to YouTube for the recommended songs.
+> - Input: Emotion inference from webcam (5 seconds) & year selection.
+> - Output: Ranked list of top 1-5 song recommendations based on the input year and inferred emotion.
+> - Additional feature: Linking to YouTube for the recommended songs.
